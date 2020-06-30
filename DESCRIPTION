@@ -13,8 +13,7 @@ Description: It just provide functions to simulate the SIR epidemic
     describes the total number of nodes in the infected state at 
     different times. The bar subgraph describes the growth of number
     of infected nodes in current time and last time in different times.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
