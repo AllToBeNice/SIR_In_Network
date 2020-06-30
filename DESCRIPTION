@@ -1,13 +1,18 @@
 Package: SIRInNetwork
-Title: What the Package Does (One Line, Title Case)
+Title: A package to simulation the SIR model in 3 kinds of Network
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Yuanchen",
+           family = "Zhu",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+           email = "yuanchenzhu@126.com")
+Description: It just provide functions to simulate the SIR epidemic
+    dynamics model on the network structures. You can generate a 
+    network structure GIF graph with a line subgraph and a bar 
+    subgraph by seting some basic parameters. The line subgraph
+    describes the total number of nodes in the infected state at 
+    different times. The bar subgraph describes the growth of number
+    of infected nodes in current time and last time in different times.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to
     pick a license
 Encoding: UTF-8
