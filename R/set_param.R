@@ -28,7 +28,7 @@
 #' @return Var_Param List
 #' @export
 #'
-#' @examples set_param("Random Network", c(0.2), 10, 70, 1, 0, 0.12, 0.4, 7)
+#' @examples set_param("Random Network", c(0.7), 10, 70, 1, 0, 0.12, 0.4, 7)
 set_param = function(Net_Name, Net_Params,
                      N, TIME, I, R,
                      InfectedRate, RemovedRate,

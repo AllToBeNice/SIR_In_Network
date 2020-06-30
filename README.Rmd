@@ -40,7 +40,7 @@ This is a basic example which shows you how to solve a common problem:
 
 ```{r example}
 library(SIRInNetwork)
-Var_Param <- set_param("Random Network", c(0.2), 10, 70, 1, 0, 0.12, 0.4, 7)
+Var_Param <- set_param("Random Network", c(0.7), N = 10, TIME = 70, I = 1, R = 0, InfectedRate = 0.12, RemovedRate = 0.4, Latency_Infected = 7)
 simulate(Var_Param)
 ## basic example code
 ```
