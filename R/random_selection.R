@@ -12,7 +12,8 @@
 #' @return results, int
 #' @export
 #'
-#' @examples random_selection(4, c(0.12, 0.88))
+#' @examples
+#' random_selection(4, c(0.12, 0.88))
 random_selection = function(freq, Inf_porb) {
   # 储存每条传入感染链接的随机感染结果
   every_selection = NULL
