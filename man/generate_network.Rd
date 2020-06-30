@@ -19,6 +19,6 @@ Generate 3 kinds of networks for simulating. You can use
 Random Network, Small World Network and Scale-Free Network.
 }
 \examples{
-generate_network("Random Network", c(10, "gnm", 100, "TRUE"))
-generate_network("Random Network", 0.2)
+generate_network("Random Network", c(10, "gnm", 10, "TRUE"))
+generate_network("Random Network", c(10, 0.2))
 }

@@ -4,12 +4,12 @@
 \alias{random_selection}
 \title{Randomly decide whether this node be infected of removed}
 \usage{
-random_selection(freq, vec_porb)
+random_selection(freq, vec_prob)
 }
 \arguments{
 \item{freq}{int, the number of incoming links(removed: freq == 1)}
 
-\item{vec_porb}{vector, the probility vector of vec_rate and 1-vec_rate}
+\item{vec_prob}{vector, the probility vector of vec_rate and 1-vec_rate}
 }
 \value{
 results, int
