@@ -22,12 +22,6 @@ It just provide functions to simulate the SIR epidemic dynamics model on the net
 
 ## Installation
 
-You can install the released version of SIRInNetwork from [CRAN](https://CRAN.R-project.org) with:
-
-``` r
-install.packages("SIRInNetwork")
-```
-
 And the development version from [GitHub](https://github.com/) with:
 
 ``` r
